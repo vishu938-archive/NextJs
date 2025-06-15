@@ -20,6 +20,6 @@ export default function RootLayout({ children }) {
 
 // Layout file automatically gets created when we run the app, even though if deleted because its mandatory
 
-// page.js file present in the app folder becomes a children when layout.js renders.
+// page.js file present in the app folder becomes a children when layout.js renders. whichever the page route it is, that particular component will render as children.
 
 // The nearest page.js file within the same directory as this layout.js will be rendered as the children prop. If there are multiple page.js files in nested folders, each layout.js only wraps the page.js in its own directory or subdirectories.

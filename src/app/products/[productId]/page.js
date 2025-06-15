@@ -10,7 +10,7 @@ const ProductIdDetails = async ({ params }) => {
 
   return (
     <div>
-      <h2>Product Details for Product ID: {productId}</h2>
+      <h3>Product Details for Product ID: {productId}</h3>
     </div>
   );
 };
