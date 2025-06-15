@@ -13,3 +13,5 @@
 =====================================================
 
 # Next Js mirrors the folder structure automatically by which we can accessing url paths.
+
+# In Next.js, components placed outside the app directory (e.g., in a components folder inside src) are not routable by default. The app directory is specifically designed for routing, and only files inside it (e.g., app/dashboard/page.js) can define routes.
