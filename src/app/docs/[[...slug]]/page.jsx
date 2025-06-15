@@ -3,10 +3,10 @@
 
 import React from "react";
 
-const Document = ({ params }) => {
+const Document = async ({ params }) => {
   // 'params' is provided by Next.js for dynamic routes.
   // 'slug' is an array containing the path segments after /docs/.
-  const { slug } = params;
+  const { slug } = await params;
 
   if (slug?.length === 2) {
     return (
