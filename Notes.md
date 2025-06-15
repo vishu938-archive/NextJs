@@ -10,5 +10,6 @@
 
 # React Server components - nextJs follows RSC architecture treating all the components as Server components by default.
 
+=====================================================
 
-
+# Next Js mirrors the folder structure automatically by which we can accessing url paths.
