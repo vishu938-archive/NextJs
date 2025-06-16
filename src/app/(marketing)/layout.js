@@ -4,7 +4,7 @@ export default function MarketingLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        {/* {children} */}
         {/* <Footer /> */}
       </body>
     </html>
