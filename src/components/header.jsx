@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const headerStyle = {
@@ -31,17 +32,22 @@ const Header = () => (
   <header style={headerStyle}>
     <div style={titleStyle}>My Next App</div>
     <nav style={navStyle}>
-      <a href="/" style={linkStyle}>
+      <Link href={"/"} style={linkStyle}>
         Home
-      </a>
-      <a href="/about" style={linkStyle}>
-        About
-      </a>
-      <a href="/dashboard" style={linkStyle}>
+      </Link>
+      <Link href={"/blog"} style={linkStyle}>
+        Blog
+      </Link>
+      <Link href={"/dashboard"} style={linkStyle}>
         Dashboard
-      </a>
+      </Link>
+      <Link href={"/products"} style={linkStyle}>
+        Products
+      </Link>
     </nav>
   </header>
 );
 
 export default Header;
+
+// UI Navigation using next/link
