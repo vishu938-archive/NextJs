@@ -14,10 +14,10 @@ const ProductReviews = async ({ params }) => {
     redirect("/products");
   }
 
-  const randomNumber = getRandomInt(2);
-  if (randomNumber === 1) {
-    throw new Error("Error loading review");
-  }
+  // const randomNumber = getRandomInt(2);
+  // if (randomNumber === 1) {
+  //   throw new Error("Error loading review");
+  // }
 
   return (
     <div>

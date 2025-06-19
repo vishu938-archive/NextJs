@@ -1,4 +1,14 @@
-const ProductDetailsLayout = ({children}) => {
+function getRandomInt(count) {
+  // gives count b/w 0 & 1
+  return Math.floor(Math.random() * count);
+}
+
+const ProductDetailsLayout = ({ children }) => {
+  const randomNumber = getRandomInt(2);
+  if (randomNumber === 1) {
+    throw new Error("Error loading Product Details");
+  }
+
   return (
     <div>
       <h1>Featured Products </h1>

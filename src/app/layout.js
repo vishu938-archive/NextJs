@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import "./globals.css"
+import "./globals.css";
+import { ErrorWrapper } from "./error-wrapper";
 
 export const metadata = {
   title: "Next.js",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
+        {/* <ErrorWrapper>{children}</ErrorWrapper> */}
         {children}
         <Footer />
       </body>
